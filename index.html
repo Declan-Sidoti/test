@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Home | Cafert</title>
+        <script id="www-widgetapi-script" src="https://s.ytimg.com/yts/jsbin/www-widgetapi-vflS50iB-/www-widgetapi.js" async=""></script>
+        <script src="https://www.youtube.com/player_api"></script>
+        <link rel="stylesheet preload" as="style" href="css/preload.min.css" />
+        <link rel="stylesheet preload" as="style" href="css/icomoon.css" />
+        <link rel="stylesheet preload" as="style" href="css/libs.min.css" />
+
+        <link rel="stylesheet" href="css/index.min.css" />
+    </head>
+    <body>
+        <header class="header" data-page="home" data-page-parent="home">
+            <div class="container d-flex align-items-center justify-content-between flex-wrap flex-xl-nowrap">
+                <a class="logo h3" href="index.html">
+                  <picture>
+                    <source data-srcset="img/m&m.png" srcset="img/m&m.png" type="image/webp" />
+                    <img class="lazy" data-src="img/m&m.png" src="img/m&m.png" alt="media" />
+                  </picture>
+
+
+
+                </a>
+                <nav class="header_nav text--medium text--md collapse" id="headerMenu">
+                    <ul class="header_nav-list">
+                      <li class="header_nav-list_item">
+                          <a class="nav-item nav-link" href="index.html" data-page="Home" data-single="true">
+                              <span class="nav-item_text">Home</span>
+                          </a>
+                      </li>
+                        <li class="header_nav-list_item">
+                            <a class="nav-item nav-link" href="about.html" data-page="about" data-single="true">
+                                <span class="nav-item_text">About</span>
+                            </a>
+                        </li>
+                        <li class="header_nav-list_item">
+                            <a class="nav-item nav-link" href="menu.html" data-page="menu" data-single="true">
+                                <span class="nav-item_text">Menu</span>
+                            </a>
+                        </li>
+                        <li class="header_nav-list_item">
+                            <a class="nav-item nav-link" href="services.html" data-page="services" data-single="true">
+                                <span class="nav-item_text">Events</span>
+                            </a>
+                        </li>
+                        <li class="header_nav-list_item">
+                            <a class="nav-item nav-link" href="blog.html" data-page="services" data-single="true">
+                                <span class="nav-item_text">Media</span>
+                            </a>
+                        </li>
+                        <li class="header_nav-list_item">
+                            <a class="nav-item nav-link" href="team.html" data-page="services" data-single="true">
+                                <span class="nav-item_text">Our Team</span>
+                            </a>
+                        </li>
+
+
+                        <li class="header_nav-list_item dropdown">
+                            <a
+                                class="nav-link nav-item dropdown-toggle d-flex align-items-center"
+                                href="contacts.html"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#contactsMenu"
+                                data-trigger="dropdown"
+                                data-page-parent="contacts"
+                                data-main-link="true"
+                                aria-expanded="false"
+                                aria-controls="contactsMenu"
+                            >
+                                <span class="nav-item_text"> Contact Us </span>
+                                <span class="icon"></span>
+                            </a>
+                            <div class="dropdown-menu collapse" id="contactsMenu">
+                                <ul class="dropdown-list">
+                                    <li class="list-item" data-main="true">
+                                        <a
+                                            class="dropdown-item nav-item"
+                                            data-page="contacts"
+                                            data-page-parent="contacts"
+                                            href="contacts.html"
+                                        >
+                                            Contact Us
+                                        </a>
+                                    </li>
+                                    <li class="list-item">
+                                        <a
+                                            class="dropdown-item nav-item"
+                                            data-page="reservations"
+                                            data-page-parent="contacts"
+                                            href="reservations.html"
+                                        >
+                                            Employment App
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="header_nav-socials d-flex">
+                        <li>
+                            <a class="link" href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                                <i class="icon-twitter icon"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="link" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                                <i class="icon-facebook icon"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="link" href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                                <i class="icon-instagram icon"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <button
+                    class="header_trigger"
+                    id="headerTrigger"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#headerMenu"
+                    aria-controls="headerMenu"
+                    aria-expanded="false"
+                    type="button"
+                >
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line line--short"></span>
+                </button>
+            </div>
+        </header>
+        <!-- homepage content start -->
+        <main>
+            <!-- hero section start -->
+            <section class="hero">
+                <div class="hero_media">
+                    <div class="hero_media-top parallaxY">
+
+                    </div>
+                </div>
+                <div style="margin-left: 60px;margin-top: -50px"class="container">
+                    <div class="hero_main">
+                        <div class="section_header">
+                            <span class="section_header-subtitle" data-aos="fade-down">Resturant</span>
+                            <h1 class="section_header-title" data-aos="fade-up">Welcome to Mill & Main</h1>
+                            <p class="section_header-text text--medium" data-aos="fade-right">
+                              A farm to table restaurant featuring a seasonal menu that
+celebrates local producers.
+                            <br>
+
+
+                            </p>
+                            <div class="wrapper d-flex">
+                                <span data-aos="fade-up">
+                                    <a class="btn" href="menu.html">Menu</a>
+                                </span>
+                                <span data-aos="fade-up" data-aos-delay="50">
+                                    <a class="btn btn--play videoTrigger" href="#"><i class="icon-play"></i></a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 80px;" class="hero_slider swiper" id="slidercss">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <picture>
+                                  <source data-srcset="img/inside.jpg" srcset="img/inside.jpg" type="image/webp" />
+                                  <img class="lazy" data-src="img/inside.jpg" src="img/inside.jpg" alt="media" />
+                              </picture>
+
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source data-srcset="img/food1.jpg" srcset="img/food1.jpg" type="image/webp" />
+                                    <img class="lazy" data-src="img/food1.jpg" src="img/food1.jpg" alt="media" />
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source data-srcset="img/food2.jpg" srcset="img/food2.jpg" type="image/webp" />
+                                    <img class="lazy" data-src="img/food2.jpg" src="img/food2.jpg" alt="media" />
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source data-srcset="img/coffee-shop.jpg" srcset="img/coffee-shop.jpg" type="image/webp" />
+                                    <img class="lazy" data-src="img/coffee-shop.jpg" src="img/coffee-shop.jpg" alt="media" />
+                                </picture>
+                            </div>
+
+
+                            <div class="swiper-slide">
+                                <picture>
+                                    <source data-srcset="img/frontsign.jpg" srcset="img/frontsign.jpg" type="image/webp" />
+                                    <img class="lazy" data-src="img/frontsign.jpg" src="img/frontsign.jpg" alt="media" />
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="hero_slider-nav swiper-overlay-nav swiper-nav">
+                            <a class="swiper-button-prev nav-item" href="#">
+                                <i class="icon-chevron-left"></i>
+                            </a>
+                            <a class="swiper-button-next nav-item" href="#">
+                                <i class="icon-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- hero section end -->
+            <!-- banner start -->
+
+        <!-- homepage content end -->
+        <footer class="footer section">
+            <div class="container d-flex">
+                <div class="footer_about">
+                    <a class="logo h3" href="index.html">
+                        <span class="logo_img">
+                        <img src= "img\m&m.png">
+                        </span>
+
+                    </a>
+                    <div class="wrapper">
+                        <p class="footer_about-address text--sm text--bold">317 Main St, Kerhonkson NY 12446</p>
+                        <p class="footer_about-copyright text--sm">
+                            Mill & Main &copy; <span id="currentYear"></span>
+                        </p>
+                    </div>
+                </div>
+                <div class="footer_block">
+                    <h4 class="footer_block-title">Contact Info</h4>
+                    <ul class="footer_block-list text--bold text--md">
+                        <li>
+                            <a class="link" href="tel:+18456261458"> <i class="icon-phone icon"></i>+1(845) 626-1458</a>
+                        </li>
+
+                        <li>
+                            <a class="link" href="mailto:hello@millandmainstreet.com"> <i class="icon-email icon"></i> hello@millandmainstreet.com </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_block">
+                    <h4 class="footer_block-title">Dinner Hours</h4>
+                    <ul class="footer_block-list text--md">
+                        <li><span class="text--bold">Thu – Sun </span>     8am to 9pm</li>
+                    </ul>
+                </div>
+                <div class="footer_block">
+                    <h4 class="footer_block-title">Bar Hours</h4>
+                    <ul class="footer_block-list text--md">
+                        <li><span class="text--bold">Happy Hour Daily </span>      4pm to 5:30pm</li>
+                    </ul>
+                </div>
+                <div class="footer_block">
+                    <h4 class="footer_block-title">Night Caps</h4>
+                    <ul class="footer_block-list text--md">
+
+                        <li><span class="text--bold">Fri & Sat</span> 11pm</li>
+                    </ul>
+                </div>
+                <div class="footer_block">
+                    <h4 class="footer_block-title">Follow Our Activity</h4>
+
+                    <ul class="footer_block-socials d-flex">
+                        <li>
+                            <a class="link" href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                                <i class="icon-twitter icon"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="link" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                                <i class="icon-facebook icon"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="link" href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                                <i class="icon-instagram icon"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <script src="js/common.min.js"></script>
+        <script src="js/map.min.js"></script>
+        <script src="js/index.min.js"></script>
+        <div class="videoPopup d-flex align-items-center justify-content-center">
+            <div class="container">
+                <div class="video_frame d-flex align-items-center justify-content-center">
+                    <i class="icon-close video_frame-close"></i>
+                    <div id="YTplayer"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
